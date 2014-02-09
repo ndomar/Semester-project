@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <greet> = <rule0> <rule1> <rule2> <rule3> ;
+<rule0> = ( (Play)  (one | two | four)  (player | players) ) ;
+<rule1> = ( (Play)  (three | two)  (players) ) ;
+<rule2> = ( (Fix)  (tile) ) ;
+<rule3> = ( (Rotate) ) ;
